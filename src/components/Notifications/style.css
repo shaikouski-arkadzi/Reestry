@@ -1,0 +1,63 @@
+.Notifications {
+  background-color: #f8f8f8;
+  border-radius: 24px;
+  height: 48px;
+  width: 48px;
+}
+
+.Notifications .user-interface-bell {
+  height: 32px !important;
+  left: 8px !important;
+  position: absolute !important;
+  top: 8px !important;
+  width: 32px !important;
+}
+
+.Notifications .overlap {
+  height: 40px;
+  left: 8px;
+  position: relative;
+  width: 42px;
+}
+
+.Notifications .user-interface-bell-2 {
+  height: 32px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 8px !important;
+  width: 32px !important;
+}
+
+.Notifications .notifications-count-wrapper {
+  height: 18px;
+  left: 22px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.Notifications .overlap-group {
+  background-color: var(--color-6);
+  border-radius: 9px;
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.Notifications .notifications-count {
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 18px;
+}
+
+.Notifications.one {
+  position: relative;
+}

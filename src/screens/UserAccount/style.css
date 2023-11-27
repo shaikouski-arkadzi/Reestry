@@ -1,0 +1,374 @@
+.user-account-wrapper {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.user-account-wrapper .profile {
+  background-color: #ffffff;
+  height: 2064px;
+  position: relative;
+  width: 1440px;
+}
+
+.user-account-wrapper .footer {
+  left: 0 !important;
+  position: absolute !important;
+  top: 1494px !important;
+}
+
+.user-account-wrapper .profile-card {
+  align-items: flex-start;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 40px;
+  left: 135px;
+  position: absolute;
+  top: 316px;
+}
+
+.user-account-wrapper .profile-info {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+}
+
+.user-account-wrapper .image {
+  height: 64px;
+  position: relative;
+  width: 64px;
+}
+
+.user-account-wrapper .labels {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.user-account-wrapper .name-surname {
+  color: var(--color-2);
+  font-family: var(--h3-font-family);
+  font-size: var(--h3-font-size);
+  font-style: var(--h3-font-style);
+  font-weight: var(--h3-font-weight);
+  letter-spacing: var(--h3-letter-spacing);
+  line-height: var(--h3-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.user-account-wrapper .status-label-wrapper {
+  align-items: center;
+  background-color: #e9faf4;
+  border-radius: 5px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.user-account-wrapper .status-label {
+  color: var(--unnamed, #22B07D);
+  font-family: var(--b2-font-family);
+  font-size: var(--b2-font-size);
+  font-style: var(--b2-font-style);
+  font-weight: var(--b2-font-weight);
+  letter-spacing: var(--b2-letter-spacing);
+  line-height: var(--b2-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.user-account-wrapper .user-label-wrapper {
+  align-items: center;
+  background-color: var(--color-6);
+  border-radius: 5px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.user-account-wrapper .user-label {
+  color: #ffffff;
+  font-family: var(--b2-font-family);
+  font-size: var(--b2-font-size);
+  font-style: var(--b2-font-style);
+  font-weight: var(--b2-font-weight);
+  letter-spacing: var(--b2-letter-spacing);
+  line-height: var(--b2-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.user-account-wrapper .line-divider-2 {
+  background-color: #ededf4;
+  border-radius: 3px;
+  height: 1px;
+  position: relative;
+  width: 970px;
+}
+
+.user-account-wrapper .profile-form {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.user-account-wrapper .block-header {
+  color: var(--color-2);
+  font-family: var(--s1-font-family);
+  font-size: var(--s1-font-size);
+  font-style: var(--s1-font-style);
+  font-weight: var(--s1-font-weight);
+  letter-spacing: var(--s1-letter-spacing);
+  line-height: var(--s1-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.user-account-wrapper .profile-form-line {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  position: relative;
+}
+
+.user-account-wrapper .FormInput-instance {
+  flex: 0 0 auto !important;
+}
+
+.user-account-wrapper .design-component-instance-node {
+  color: var(--color-2) !important;
+}
+
+.user-account-wrapper .FormInput-2 {
+  gap: 265px !important;
+}
+
+.user-account-wrapper .FormInput-3 {
+  gap: 267px !important;
+}
+
+.user-account-wrapper .FormInput-4 {
+  gap: 300px !important;
+}
+
+.user-account-wrapper .FormInput-5 {
+  gap: 294px !important;
+}
+
+.user-account-wrapper .contact-block {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 762px;
+  position: relative;
+}
+
+.user-account-wrapper .block-header-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.user-account-wrapper .edit-button {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.user-account-wrapper .edit-text {
+  color: var(--color-6);
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.user-account-wrapper .FormInput-6 {
+  gap: 264px !important;
+}
+
+.user-account-wrapper .password {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 781px;
+  position: relative;
+}
+
+.user-account-wrapper .password-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.user-account-wrapper .text-password {
+  color: var(--color-5);
+  font-family: var(--b2-font-family);
+  font-size: var(--b2-font-size);
+  font-style: var(--b2-font-style);
+  font-weight: var(--b2-font-weight);
+  letter-spacing: var(--b2-letter-spacing);
+  line-height: var(--b2-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.user-account-wrapper .password-input {
+  align-items: center;
+  background-color: var(--color-8);
+  border-radius: 5px;
+  display: flex;
+  gap: 338px;
+  height: 56px;
+  padding: 17px 18px;
+  position: relative;
+  width: 470px;
+}
+
+.user-account-wrapper .password-password {
+  color: #4d4d4f;
+  font-family: var(--b2-font-family);
+  font-size: var(--b2-font-size);
+  font-style: var(--b2-font-style);
+  font-weight: var(--b2-font-weight);
+  letter-spacing: var(--b2-letter-spacing);
+  line-height: var(--b2-line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.user-account-wrapper .user-interface-eye {
+  height: 24px !important;
+  margin-bottom: -1px !important;
+  margin-right: -2px !important;
+  margin-top: -1px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.user-account-wrapper .save {
+  background-color: var(--color-6) !important;
+  width: 270px !important;
+}
+
+.user-account-wrapper .save-instance {
+  font-family: var(---font-family) !important;
+  font-size: var(---font-size) !important;
+  font-style: var(---font-style) !important;
+  font-weight: var(---font-weight) !important;
+  letter-spacing: var(---letter-spacing) !important;
+  line-height: var(---line-height) !important;
+  margin-left: -122.5px !important;
+  margin-right: -122.5px !important;
+  margin-top: unset !important;
+}
+
+.user-account-wrapper .header-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.user-account-wrapper .account-image {
+  background-color: #c4c4c4 !important;
+  border-radius: 24px !important;
+  object-fit: unset !important;
+}
+
+.user-account-wrapper .nav-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 40px;
+  left: 135px;
+  position: absolute;
+  top: 160px;
+}
+
+.user-account-wrapper .nav {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+}
+
+.user-account-wrapper .icon-right-arrow {
+  height: 32px !important;
+  position: relative !important;
+  width: 32px !important;
+}
+
+.user-account-wrapper .nav-noactive {
+  color: var(--color-4);
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.user-account-wrapper .nav-active {
+  color: var(--color-2);
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.user-account-wrapper .page-header {
+  color: var(--color-2);
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  position: relative;
+  width: fit-content;
+}

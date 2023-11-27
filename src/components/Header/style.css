@@ -1,0 +1,64 @@
+.header {
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #ededf4;
+  display: inline-flex;
+  gap: 205px;
+  padding: 16px 135px;
+  position: relative;
+}
+
+.header .instance-2-instance {
+  height: 40px !important;
+  position: relative !important;
+  width: 148px !important;
+}
+
+.header .header-links {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+}
+
+.header .header-text {
+  color: var(--color-4);
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.header .header-right {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+}
+
+.header .Notifications-instance {
+  position: relative !important;
+}
+
+.header .vertical-line-divider {
+  background-color: #ededf4;
+  border-radius: 3px;
+  height: 48px;
+  position: relative;
+  width: 2px;
+}
+
+.header .Account-instance {
+  flex: 0 0 auto !important;
+}

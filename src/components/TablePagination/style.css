@@ -1,0 +1,79 @@
+.TablePagination {
+  align-items: center;
+  border: 1px solid;
+  border-color: #ededf4;
+  border-radius: 4px;
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+}
+
+.TablePagination .icon-upper-arrow {
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.TablePagination .pages {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.TablePagination .active-page-wrapper {
+  align-items: center;
+  background-color: var(--color-6);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 40px;
+  justify-content: center;
+  padding: 10px 5px;
+  position: relative;
+  width: 40px;
+  cursor: default;
+}
+
+.TablePagination .active-page-text {
+  color: #ffffff;
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+  margin-top: -0.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.TablePagination .noactive-page-wrapper {
+  align-items: center;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 40px;
+  justify-content: center;
+  padding: 10px 5px;
+  position: relative;
+  width: 40px;
+  cursor: pointer;
+}
+
+.TablePagination .noactive-page-text {
+  color: var(--color-4);
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+  margin-top: -0.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

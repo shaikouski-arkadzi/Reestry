@@ -1,0 +1,150 @@
+.login-form-wrapper {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.login-form-wrapper .design-component-instance-node {
+  flex: 0 0 auto !important;
+  color: var(--color-2) !important;
+}
+
+.login-form-wrapper .form-login {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  padding: 160px 505px;
+  position: relative;
+}
+
+.login-form-wrapper .form-login__header {
+  color: var(--ow-f-5k-2);
+  font-family: var(--h1-font-family);
+  font-size: var(--h1-font-size);
+  font-style: var(--h1-font-style);
+  font-weight: var(--h1-font-weight);
+  letter-spacing: var(--h1-letter-spacing);
+  line-height: var(--h1-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.login-form-wrapper .fields {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.login-form-wrapper .loginForm-instance {
+  color: var(--ipa-zz-e) !important;
+}
+
+.login-form-wrapper .FormInput-2 {
+  gap: 243px !important;
+}
+
+.login-form-wrapper .view {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.login-form-wrapper .view-2 {
+  align-items: center;
+  border: 1px solid;
+  border-color: #a7b3cc;
+  border-radius: 5px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 10px;
+  position: relative;
+  width: 430px;
+}
+
+.login-form-wrapper .iufl {
+  color: var(--color-4);
+  font-family: var(--b2-font-family);
+  font-size: var(--b2-font-size);
+  font-style: var(--b2-font-style);
+  font-weight: var(--b2-font-weight);
+  letter-spacing: var(--b2-letter-spacing);
+  line-height: var(--b2-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.login-form-wrapper .nav-wrapper {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  left: 135px;
+  position: absolute;
+  top: 80px;
+}
+
+.login-form-wrapper .icon-right-arrow {
+  height: 32px !important;
+  position: relative !important;
+  width: 32px !important;
+}
+
+.login-form-wrapper .nav-text {
+  color: var(--color-4);
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.login-form-wrapper .FormInput-3 {
+  width: 430px;
+}
+
+.login-form-wrapper .login {
+  background-color: var(--color-6) !important;
+}
+
+.login-form-wrapper .login-instance {
+  font-family: var(---font-family) !important;
+  font-size: var(---font-size) !important;
+  font-style: var(---font-style) !important;
+  font-weight: var(---font-weight) !important;
+  letter-spacing: var(---letter-spacing) !important;
+  line-height: var(---line-height) !important;
+  margin-left: -122.5px !important;
+  margin-right: -122.5px !important;
+  margin-top: unset !important;
+}
+
+.login-form-wrapper .login2 {
+  border: 1px solid #a7b3cc;
+  border-radius: 5px;
+  /* flex: none;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 430px;
+  padding: 20px 10px;
+  display: flex;
+  position: relative; */
+}

@@ -1,0 +1,65 @@
+.label-button {
+  align-items: center;
+  border-radius: 5px;
+  display: inline-flex;
+  gap: 5px;
+  justify-content: center;
+  padding: 5px 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.label-button .icon {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.label-button .label-button-text {
+  font-family: var(---font-family);
+  font-size: var(---font-size);
+  font-style: var(---font-style);
+  font-weight: var(---font-weight);
+  letter-spacing: var(---letter-spacing);
+  line-height: var(---line-height);
+  position: relative;
+  width: fit-content;
+}
+
+.label-button.prop-two {
+  background-color: var(--color-1);
+}
+
+.label-button.prop-three {
+  background-color: var(--color-3);
+}
+
+.label-button.prop-four {
+  border: 1px solid;
+  border-color: var(--b-bfui-f);
+}
+
+.label-button.prop-one {
+  border: 1px solid;
+  border-color: var(--color-1);
+}
+
+.label-button.prop-two .label-button-text {
+  color: #ffffff;
+}
+
+.label-button.prop-three .label-button-text {
+  color: #ffffff;
+}
+
+.label-button.prop-four .label-button-text {
+  color: var(--b-bfui-f);
+}
+
+.label-button.prop-one .label-button-text {
+  color: var(--color-1);
+}
+
+.activeButton {
+  background-color: var(--color-1);
+}

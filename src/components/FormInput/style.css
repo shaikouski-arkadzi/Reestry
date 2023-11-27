@@ -1,0 +1,106 @@
+.FormInput {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.FormInput .label {
+  color: var(--color-5);
+  font-family: var(--b2-font-family);
+  font-size: var(--b2-font-size);
+  font-style: var(--b2-font-style);
+  font-weight: var(--b2-font-weight);
+  letter-spacing: var(--b2-letter-spacing);
+  line-height: var(--b2-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.FormInput .input-wrapper {
+  align-items: center;
+  background-color: var(--color-8);
+  border-radius: 5px;
+  display: flex;
+  height: 56px;
+  padding: 17px 18px;
+  position: relative;
+  width: 470px;
+}
+
+.FormInput .default {
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.FormInput .span {
+  color: #262a33;
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+}
+
+.FormInput .text-wrapper-7 {
+  color: #12a2b9;
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+}
+
+.FormInput .prop-two {
+  border: 1px solid;
+  border-color: var(--color-6);
+  gap: 10px;
+}
+
+.FormInput .prop-three {
+  border: 1px solid;
+  border-color: var(--color-6);
+  gap: 10px;
+}
+
+.FormInput .prop-four {
+  gap: 10px;
+}
+
+.FormInput .prop-one {
+  gap: 309px;
+}
+
+.FormInput .input-wrapper.prop-two .default {
+  color: var(--color-4);
+}
+
+.FormInput .disable-input-style {
+  background-color: var(--color-8);
+  border: none;
+  outline: none;
+}
+
+
+.FormInput .input-wrapper.prop-three .default {
+  color: transparent;
+}
+
+.FormInput .input-wrapper.prop-four .default {
+  color: var(--color-2);
+}
+
+.FormInput .input-wrapper.prop-one .default {
+  color: var(--color-7);
+}

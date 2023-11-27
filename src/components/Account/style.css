@@ -1,0 +1,69 @@
+.Account {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  height: 48px;
+  position: relative;
+}
+
+.Account .user-interface-user-wrapper {
+  background-color: #f8f8f8;
+  border-radius: 24px;
+  height: 48px;
+  position: relative;
+  width: 48px;
+}
+
+.Account .user-interface-user {
+  height: 32px !important;
+  left: 8px !important;
+  position: absolute !important;
+  top: 8px !important;
+  width: 32px !important;
+}
+
+.Account .login-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 18px;
+  position: relative;
+}
+
+.Account .login-text {
+  color: var(--color-4);
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.Account .user-interface-upper {
+  height: 32px !important;
+  position: relative !important;
+  width: 32px !important;
+}
+
+.Account .img-2 {
+  height: 48px;
+  object-fit: cover;
+  position: relative;
+  width: 48px;
+}
+
+.Account .text-name {
+  color: var(--color-4);
+  font-family: var(--b1-font-family);
+  font-size: var(--b1-font-size);
+  font-style: var(--b1-font-style);
+  font-weight: var(--b1-font-weight);
+  letter-spacing: var(--b1-letter-spacing);
+  line-height: var(--b1-line-height);
+  position: relative;
+  width: 127px;
+}
